@@ -1,0 +1,127 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background: url("/img/project-item-06.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150%;
+    width: 100%;
+}
+
+
+
+.footer{
+
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#999;
+    text-align: center;
+}
+
+
+.row{
+    justify-content: center;
+}
+
+#sig
+{
+
+    background-color: #5cb85c;
+    color: red;
+    border-radius: 5px;
+    height: 30px;
+    width: 280px;
+}
+
+#remember{
+color:#d9534f;
+    
+    font-weight: bold;
+
+
+}
+#lo
+{
+    
+   
+    font-size: 50px;
+ 
+color:blue;
+ 
+}
+#divider
+{
+    border-bottom:2px solid grey;
+        position: absolute;
+width: 250px;
+    top: 45px;
+    left: 20px;
+}
+#account{
+color:#d9534f;
+    
+}
+input{
+    
+    border-radius: 15px;
+    width: 220px;
+    height: 33px;
+}
+::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+/* --------------------------------------------
+Relevant Style
+---------------------------------------------*/
+.dropdown-cols-2 {
+  .dropdown-menu {
+    min-width: 400px;
+    & > div {
+      float: left;      
+      padding: 10px 20px;  
+    }
+    ul {
+      margin: 0;  
+      padding: 0; 
+    }
+    li {
+      list-style: none;
+    }      
+  }  
+  @media screen and (max-width: 767px) {
+    .dropdown-menu {
+      min-width: 140px;
+    }
+  }
+}
+
+
+/* --------------------------------------------
+Presentational stuff
+---------------------------------------------*/
+$base: #666;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+.dropdown-cols-2 {
+  .dropdown-menu {
+    h5 {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+    }  
+  }
+  a {
+    color: $base;
+  }  
+}

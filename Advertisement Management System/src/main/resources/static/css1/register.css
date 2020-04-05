@@ -1,0 +1,88 @@
+
+#img1
+{
+     position: relative;
+    top: -12px;
+    left: -12px;
+    height: 50px;
+    width: 50px;
+}
+
+body{
+    
+    background-image: url("/img/project-item-05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150%;
+    width: 100%;
+    
+}
+
+
+.footer{
+
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#999;
+    text-align: center;
+}
+input{
+    
+    border-radius: 15px;
+    width: 220px;
+    height: 33px;
+}
+::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.dropdown-cols-2 {
+  .dropdown-menu {
+    min-width: 400px;
+    & > div {
+      float: left;      
+      padding: 10px 20px;  
+    }
+    ul {
+      margin: 0;  
+      padding: 0; 
+    }
+    li {
+      list-style: none;
+    }      
+  }  
+  @media screen and (max-width: 767px) {
+    .dropdown-menu {
+      min-width: 140px;
+    }
+  }
+}
+
+
+/* --------------------------------------------
+Presentational stuff
+---------------------------------------------*/
+$base: #666;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+.dropdown-cols-2 {
+  .dropdown-menu {
+    h5 {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+    }  
+  }
+  a {
+    color: $base;
+  }  
+}
+.btn{
+  
+    
+}
